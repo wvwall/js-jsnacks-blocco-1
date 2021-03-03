@@ -1,9 +1,9 @@
-//Il software deve chiedere per 10 volte all’utente di inserire un numero. 
-//Il programma stampa la somma di tutti i numeri inseriti.
+//Calcolo la somma e la media dei primi 10 numeri
 
-var somma = 0;
+var numeri = [0,1,2,3,4,5,6,7,8,9];
 
-for (var i = 0; i < 10; i++) {
-    somma += parseInt(prompt("Inserisci un numero: ")); 
-}
+var somma = numeri[0] + numeri[1] + numeri[2] + numeri[3] + numeri[4] + numeri[5] + numeri[6] + numeri[7] + numeri[8] + numeri[9];
 console.log(somma);
+
+var media = somma /10;
+console.log(media);

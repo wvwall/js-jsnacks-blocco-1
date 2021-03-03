@@ -1,10 +1,5 @@
-//Inserisci due parole e stampa prima la parolo più corta e poi la parola più lunga
+//Stampa le potenze di 2 fino a 1000
 
-var parola1 = prompt("Inserisci la prima parola: ");
-var parola2 = prompt("Inserisci la seconda parola: ");
-
-if (parola1 > parola2) {
-    console.log(parola2, parola1);
-} else if (parola2 > parola1) {
-    console.log(parola1, parola2);
+for(var i = 1; i < 33; i++) {
+   var potenza2 = console.log(Math.pow(i, 2));
 }

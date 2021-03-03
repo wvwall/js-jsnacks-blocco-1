@@ -1,9 +1,8 @@
-//Il software deve chiedere per 10 volte all’utente di inserire un numero. 
-//Il programma stampa la somma di tutti i numeri inseriti.
+// Chiedi un numero di 4 cifre all'utente
+
+var numero =(prompt("Inserisci un numero di 4 cifre: "));
+
+//Calcola la somma delle cifre che compongono il numero
 
 var somma = 0;
 
-for (var i = 0; i < 10; i++) {
-    somma += parseInt(prompt("Inserisci un numero: ")); 
-}
-console.log(somma);
