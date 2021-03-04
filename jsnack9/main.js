@@ -7,3 +7,15 @@ console.log(somma);
 
 var media = somma /10;
 console.log(media);
+
+
+//METODO FLESSIBILE
+
+/* var somma = 0;
+
+for (var i = 0; i <10; i++) {
+    somma += i + 1;
+}
+var media = somma/i;
+
+console.log(somma, media); */

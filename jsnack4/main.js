@@ -1,7 +1,7 @@
 // Creare array invitati alla festa
 
 var invitati = ["pinco","pallo","pinca","palla"];
-
+//console.log(invitati);
 //Chiedi all'utente il suo nome
 
 var nome = prompt("Dimmi il tuo nome: ");
@@ -10,10 +10,9 @@ var nome = prompt("Dimmi il tuo nome: ");
 
 var diLivio = false;
 
-for (let i = 0; i < invitati.length; i++) {
+for (var i = 0; i < invitati.length && !diLivio; i++) {
     if (invitati[i] === nome) {
         diLivio = true;
-        break;
     }
 }
 
